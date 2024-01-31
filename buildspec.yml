@@ -11,6 +11,10 @@ phases:
     commands:
       - npm run build
 
+artifacts:
+  files: '**/*'
+  discard-paths: yes
+  
 post_build:
   commands:
     - npm start
