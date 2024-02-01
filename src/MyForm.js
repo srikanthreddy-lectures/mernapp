@@ -22,7 +22,7 @@ function MyForm() {
         console.log(response.data);
         // Handle success, reset form, update UI, etc.
       // Show confirmation message
-      setConfirmation(`Thank you Mr./Mrs. ${formData.name},Your Data submitted successfully!`);
+      setConfirmation(`Namasthe! Mr./Mrs. ${formData.name},Your Data submitted successfully!`);
         
       // Reset the form
       setFormData({
