@@ -17,7 +17,7 @@ app.use(express.json()); // Parse JSON requests
     }
 */
 //connecting to MongoDB cluster0
-mongoose.connect(`MONGODB URI`)
+mongoose.connect(`mongodb+srv://venu:venu123@cluster0.8qjztwk.mongodb.net/?retryWrites=true&w=majority`)
 .then(()=>{
     console.log(`MongoDB Connected on MongoDB Cluster`)
 })
