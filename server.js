@@ -8,7 +8,18 @@ app.use(express.static(path.join(__dirname, '/build')));
 //to understand data in react component use cors // from one port to another port 
 app.use(cors());
 app.use(express.json()); // Parse JSON requests
-
+/*
+    Sample document
+    {
+      "_id": {
+        "$oid": "659e28c5322558ea6f43affc"
+      },
+      "name": "Venu",
+      "branch": "CSE",
+      "rno": 501,
+      "__v": 0
+    }
+*/
 //connecting to MongoDB cluster0
 mongoose.connect(`MONGODB URI`)
 .then(()=>{
