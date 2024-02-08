@@ -10,7 +10,7 @@ app.use(cors());
 app.use(express.json()); // Parse JSON requests
 
 //connecting to MongoDB cluster0
-mongoose.connect(`mongodb+srv://venu:venu123@cluster0.8qjztwk.mongodb.net/?retryWrites=true&w=majority`)
+mongoose.connect(`MONGODB URI`)
 .then(()=>{
     console.log(`MongoDB Connected on MongoDB Cluster`)
 })
