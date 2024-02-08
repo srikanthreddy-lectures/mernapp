@@ -11,13 +11,9 @@ app.use(express.json()); // Parse JSON requests
 /*
     Sample document
     {
-      "_id": {
-        "$oid": "659e28c5322558ea6f43affc"
-      },
       "name": "Venu",
       "branch": "CSE",
-      "rno": 501,
-      "__v": 0
+      "rno": 501
     }
 */
 //connecting to MongoDB cluster0
