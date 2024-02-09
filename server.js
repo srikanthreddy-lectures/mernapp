@@ -3,7 +3,7 @@ const path = require('path');
 const mongoose=require('mongoose');
 const cors = require('cors');
 const app=express();
-let PORT=5000;
+let PORT=4000;
 app.use(express.static(path.join(__dirname, '/build')));
 //to understand data in react component use cors // from one port to another port 
 app.use(cors());
